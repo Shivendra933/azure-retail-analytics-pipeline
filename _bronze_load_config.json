@@ -1,0 +1,28 @@
+{
+  "filesToProcess": [
+    {
+      "source_filename": "fact_orders_daily_batch.csv",
+      "bronze_table_name": "bronze_orders"
+    },
+    {
+      "source_filename": "dim_customers.csv",
+      "bronze_table_name": "bronze_customers"
+    },
+    {
+      "source_filename": "dim_products.csv",
+      "bronze_table_name": "bronze_products"
+    },
+    {
+      "source_filename": "dim_stores.csv",
+      "bronze_table_name": "bronze_stores"
+    },
+    {
+      "source_filename": "payments.csv",
+      "bronze_table_name": "bronze_payments"
+    },
+    {
+      "source_filename": "inventory_snapshot_daily.csv",
+      "bronze_table_name": "bronze_inventory"
+    }
+  ]
+}
